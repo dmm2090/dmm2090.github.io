@@ -120,7 +120,8 @@
   position: -webkit-sticky; /*Safari*/
   position: sticky;
   top: 0;
-  text-align: center;
+  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .topNav a {
