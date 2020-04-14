@@ -141,8 +141,8 @@ topNav a:hover {
 }
 
 topNav a.active {
-  background-color: #4CAF50;
-  color: white;
+  background-color: white;
+  color: blue;
 }
 
 .topNav .icon {
