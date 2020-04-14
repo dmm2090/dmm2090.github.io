@@ -120,7 +120,7 @@
   position: -webkit-sticky; /*Safari*/
   position: sticky;
   top: 0;
-  display: flex;
+  display: block;
   justify-content: space-around;
   justify-content: space-between;
 }
