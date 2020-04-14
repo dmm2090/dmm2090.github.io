@@ -150,7 +150,6 @@ topNav a.active {
 @media screen and (max-width: 550px) {
   .topNav a:not(:first-child) {display: none;
     float:left
-    justify-content: none;
 
   }
   .topNav a.icon {
@@ -172,6 +171,7 @@ topNav a.active {
 .topNav.responsive a {
   float: none;
   display: inline-block;
+  left: 0;
   text-align: left;
 }
 /* Base Styles
