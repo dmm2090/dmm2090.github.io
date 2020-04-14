@@ -164,14 +164,12 @@ topNav a.active {
     position: absolute;
     right: 0;
     top: 0;
-    float: left;
   }
 }
 
 .topNav.responsive a {
   float: none;
-  display: inline-block;
-  left: 0;
+  display: block;
   text-align: left;
 }
 /* Base Styles
