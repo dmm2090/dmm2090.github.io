@@ -120,13 +120,14 @@
   position: -webkit-sticky; /*Safari*/
   position: sticky;
   top: 0;
+  text-align: center;
 }
 
 .topNav a {
   float: left;
-  display:inline-block;
+  display:block;
   color: #f2f2f2;
-  text-align: center;
+/*  text-align: center; */
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
