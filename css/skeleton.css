@@ -164,6 +164,7 @@ topNav a.active {
     display: block;
     justify-content: none;
     justify-content: none;
+    float: left;
   }
 }
 
