@@ -170,7 +170,7 @@ topNav a.active {
 
 .topNav.responsive a {
   float: none;
-  display: block;
+  display: inline;
   text-align: left;
 }
 /* Base Styles
