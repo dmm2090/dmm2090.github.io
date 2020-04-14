@@ -120,13 +120,14 @@
   position: -webkit-sticky; /*Safari*/
   position: sticky;
   top: 0;
+  display: flex;
   justify-content: space-around;
   justify-content: space-between;
 }
 
 .topNav a {
   float: left;
-  display:inline-block;
+/*  display:inline-block; */
   color: #f2f2f2;
 /*  text-align: center; */
   padding: 14px 16px;
