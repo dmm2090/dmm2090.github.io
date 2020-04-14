@@ -147,6 +147,28 @@ topNav a.active {
   display: none;
 }
 
+@media screen and (max-width: 550px) {
+  .topNav a:not(:first-child) {display: none;}
+  .topNav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .topNav.responsive {position: relative;}
+  .topNav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+}
+
+.topNav.responsive a {
+  float: none;
+  display: block;
+  text-align: left;
+}
 /* Base Styles
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 /* NOTE
