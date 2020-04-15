@@ -115,7 +115,7 @@
 /* Drop Down Menu
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .topNav {
-  background-color: #333;
+  background-color: #452313;
   overflow: hidden;
   position: -webkit-sticky; /*Safari*/
   position: sticky;
@@ -150,7 +150,7 @@ topNav a.active {
 /* Active
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .active {
- background-color: #003057;
+ background-color: #515a47;
  padding-top: 2.2rem;
  padding-bottom: 2.5rem;
  padding-right: 2.3rem;
@@ -199,7 +199,7 @@ body {
   font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
   font-weight: 400;
-  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Ubuntu", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #222; }
 
 
@@ -233,9 +233,9 @@ p {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #1EAEDB; }
+  color: #000; }
 a:hover {
-  color: #0FA0CE; }
+  color: #d7be82; }
 
 
 /* Buttons
@@ -281,8 +281,8 @@ input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
   color: #FFF;
-  background-color: #33C3F0;
-  border-color: #33C3F0; }
+  background-color: #452313;
+  border-color: #452313; }
 .button.button-primary:hover,
 button.button-primary:hover,
 input[type="submit"].button-primary:hover,
@@ -294,8 +294,8 @@ input[type="submit"].button-primary:focus,
 input[type="reset"].button-primary:focus,
 input[type="button"].button-primary:focus {
   color: #FFF;
-  background-color: #1EAEDB;
-  border-color: #1EAEDB; }
+  background-color: #515a47;
+  border-color: #515a47; }
 
 
 /* Forms
