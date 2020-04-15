@@ -454,6 +454,54 @@ hr {
   display: table;
   clear: both; }
 
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 64, 0.6); /*rgba(0, 0, 0, 0.2) */
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  font-size: inherit;
+}
+
+.price {
+  color: #7C878E;
+  font-size: 22px;
+}
+
+.button.button-card,
+button.button-card,
+input[type="submit"].button-card,
+input[type="reset"].button-card,
+input[type="button"].button-card {
+  border: 1px solid #003057;
+  outline: 0;
+  padding: .1rem;
+  color: #FFF;
+  background-color: #003057;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  border-radius: 0px; /* creates rounded button */
+  margin-bottom: 0;
+   }
+.button.button-card:hover,
+button.button-card:hover,
+input[type="submit"].button-card:hover,
+input[type="reset"].button-card:hover,
+input[type="button"].button-card:hover,
+.button.button-card:focus,
+button.button-card:focus,
+input[type="submit"].button-card:focus,
+input[type="reset"].button-card:focus,
+input[type="button"].button-card:focus {
+  color: #003057;
+  background-color: transparent;
+  border-color: #003057;
+  opacity: 1.0;
+  border: 2px solid;
+   }
+
 
 /* Media Queries
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
