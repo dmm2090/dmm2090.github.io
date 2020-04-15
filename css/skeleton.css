@@ -147,6 +147,18 @@ topNav a.active {
   display: none;
 }
 
+/* Active
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.active {
+ background-color: #003057;
+ padding-top: 2.2rem;
+ padding-bottom: 2.5rem;
+ padding-right: 2.3rem;
+ padding-left: 2.3rem;
+ color: #fff;
+ box-shadow: 0 4px 12px 0 rgba(0, 0, 64, 0.6);
+}
+
 @media screen and (max-width: 600px) {
   .topNav a:not(:first-child) {display: none;
     float:left
