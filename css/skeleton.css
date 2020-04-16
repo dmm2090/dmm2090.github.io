@@ -28,6 +28,10 @@
 
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+.body{
+  background-color: 000;
+}
+
 .container {
   position: relative;
   width: 100%;
@@ -136,13 +140,13 @@
 }
 
 .topNav a:hover {
-  background-color: #d7be82;
-  color: #000;
+  background-color: #452313;
+  color: #d7be82;
 }
 
 .topNav a.active {
   background-color: #515a47;
-  color: #fff;
+  color: #d7be82;
   box-shadow: 0 4px 12px 0 rgba(0, 0, 64, 0.6);
 }
 
