@@ -526,6 +526,10 @@ input[type="button"].button-card:focus {
   color: #4875B4;
 }
 
+.fa.fa-youtube {
+  color: #B31217;
+}
+
 @@media screen and (max-width: 600px) {
   fa.fa-linkedin {
     font-size: fa-sm;
@@ -540,7 +544,6 @@ input[type="button"].button-card:focus {
 .fab.fa-twitter {
   color: #55ACEE;
 }
-
 
 /* Media Queries
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
