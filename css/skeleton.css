@@ -140,7 +140,7 @@
 }
 
 .topNav a:hover {
-  background-color: #452313;
+  background-color: #515a47;
   color: #d7be82;
 }
 
@@ -341,8 +341,8 @@ input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
   color: #FFF;
-  background-color: #452313;
-  border-color: #452313; }
+  background-color: #515a47;
+  border-color: #515a47; }
 .button.button-primary:hover,
 button.button-primary:hover,
 input[type="submit"].button-primary:hover,
@@ -353,9 +353,10 @@ button.button-primary:focus,
 input[type="submit"].button-primary:focus,
 input[type="reset"].button-primary:focus,
 input[type="button"].button-primary:focus {
-  color: #FFF;
-  background-color: #515a47;
-  border-color: #515a47; }
+  color: #515a47;
+  background-color: #FFF;
+  border-color: #515a47;
+  border: 2px solid; }
 
 
 /* Forms
