@@ -471,13 +471,13 @@ hr {
   max-width: 300px;
   margin: auto;
   text-align: center;
-  font-family: arial;
+  font-family: Ubuntu;
   font-size: inherit;
 }
 
 .price {
   color: #7C878E;
-  font-size: 22px;
+  font-size: 20px;
 }
 
 .button.button-card,
