@@ -114,7 +114,7 @@
 
 }
 
-/* Drop Down Menu
+/* TopNav
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .topNav {
   background-color: #452313;
@@ -149,18 +149,6 @@ topNav a.active {
   display: none;
 }
 
-/* Active
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-.active {
- background-color: #515a47;
- padding-top: 2.2rem;
- padding-bottom: 2.5rem;
- padding-right: 2.3rem;
- padding-left: 2.3rem;
- color: #fff;
- box-shadow: 0 4px 12px 0 rgba(0, 0, 64, 0.6);
-}
-
 @media screen and (max-width: 600px) {
   .topNav a:not(:first-child) {display: none;
     float:left
@@ -190,6 +178,20 @@ topNav a.active {
   display: block;
   text-align: left;
 }
+
+/* Active
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.active {
+ background-color: #515a47;
+ padding-top: 2.2rem;
+ padding-bottom: 2.5rem;
+ padding-right: 2.3rem;
+ padding-left: 2.3rem;
+ color: #fff;
+ box-shadow: 0 4px 12px 0 rgba(0, 0, 64, 0.6);
+}
+
+
 /* Base Styles
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 /* NOTE
@@ -468,6 +470,8 @@ hr {
   display: table;
   clear: both; }
 
+  /* Project Cards
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 64, 0.6); /*rgba(0, 0, 0, 0.2) */
   max-width: 300px;
@@ -515,6 +519,27 @@ input[type="button"].button-card:focus {
   opacity: 1.0;
   border: 2px solid;
    }
+
+/* Font Awesome Icons
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.fa.fa-linkedin {
+  color: #4875B4;
+}
+
+@@media screen and (max-width: 600px) {
+  fa.fa-linkedin {
+    font-size: fa-sm;
+  }
+
+}
+
+.fab.fa-instagram {
+  color: inherit;
+}
+
+.fab.fa-twitter {
+  color: #55ACEE;
+}
 
 
 /* Media Queries
