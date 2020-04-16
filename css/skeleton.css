@@ -89,6 +89,8 @@
   .offset-by-four.columns         { margin-left: 34.6666666667%; }
   .offset-by-five.column,
   .offset-by-five.columns         { margin-left: 43.3333333333%; }
+  .offset-by-five-plus.column,
+  .offset-by-four-plus.columns    { margin-left: 45%;            }
   .offset-by-six.column,
   .offset-by-six.columns          { margin-left: 52%;            }
   .offset-by-seven.column,
