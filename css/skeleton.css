@@ -526,6 +526,12 @@ hr {
   display: table;
   clear: both; }
 
+  /* fontawesome icons
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+  .fa.fa-youtube {
+    color: red;
+  }
+
   /* Project Cards
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .card {
