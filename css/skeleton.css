@@ -146,7 +146,7 @@
 }
 
 .topNav a.active {
-  background-color: #515a47;  
+  background-color: #515a47;
   border-bottom: 3px solid #d7be82;
   color: #d7be82;
   box-shadow: 0 4px 12px 0 rgba(0, 0, 64, 0.6);
@@ -164,6 +164,7 @@
   .topNav a.icon {
     float: right;
     display: block;
+    border-bottom: transparent;
   }
 }
 
