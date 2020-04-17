@@ -344,7 +344,8 @@ input[type="reset"].button-primary,
 input[type="button"].button-primary {
   color: #FFF;
   background-color: #515a47;
-  border-color: #515a47; }
+  border-color: #515a47;
+  font-size: 18px}
 .button.button-primary:hover,
 button.button-primary:hover,
 input[type="submit"].button-primary:hover,
