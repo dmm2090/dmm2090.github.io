@@ -147,7 +147,6 @@
 
 .topNav a.active {
   background-color: #515a47;
-  /* border-bottom: 3px solid #d7be82; */
   color: #d7be82;
   box-shadow: 0 4px 12px 0 rgba(0, 0, 64, 0.6);
 }
@@ -164,6 +163,7 @@
   .topNav a.icon {
     float: right;
     display: block;
+    border-bottom: none;
   }
 }
 
@@ -344,8 +344,7 @@ input[type="reset"].button-primary,
 input[type="button"].button-primary {
   color: #FFF;
   background-color: #515a47;
-  border-color: #515a47;
-  font-size: 18px;  }
+  border-color: #515a47; }
 .button.button-primary:hover,
 button.button-primary:hover,
 input[type="submit"].button-primary:hover,
