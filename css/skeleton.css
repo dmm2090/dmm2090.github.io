@@ -163,7 +163,6 @@
   .topNav a.icon {
     float: right;
     display: block;
-    border-bottom: none;
   }
 }
 
@@ -216,29 +215,11 @@
   color: #d7be82;
 }
 
-/*
-@media screen and (max-width: 600px) {
-  .topNav a:not(:first-child) {display: none;
-    float:left
-  }
-  */
-
   .bottomNav a.icon {
     float: right;
     display: block;
   }
 }
-
-/*
-@media screen and (max-width: 600px) {
-  .topNav.responsive {position: relative;}
-  .topNav.responsive a.icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-}
-*/
 
 .bottomNav.responsive {
   display: block;
