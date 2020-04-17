@@ -511,6 +511,14 @@ hr {
     color: red;
   }
 
+  .fab.fa-twitter {
+  color: black;
+}
+
+  .fab.fa-instagram {
+    color: black;
+  }
+
   /* Project Cards
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .card {
