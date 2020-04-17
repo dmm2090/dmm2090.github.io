@@ -164,7 +164,6 @@
   .topNav a.icon {
     float: right;
     display: block;
-    border-bottom: transparent;
   }
 }
 
@@ -174,6 +173,7 @@
     position: absolute;
     right: 0;
     top: 0;
+    border-bottom: hidden;
   }
 }
 
