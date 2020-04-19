@@ -117,7 +117,9 @@
 /* TopNav
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .topNav {
-  background-color: #452313;
+  /* background-color: #452313;     */
+  border-top: 3px solid #452313;
+  border-bottom: 3px solid #452313;
   overflow: hidden;
   position: -webkit-sticky; /*Safari*/
   position: sticky;
@@ -129,15 +131,16 @@
 
 .topNav a {
   float: none;
-  color: #fff;
+  color: #452313;  /*color of nav link text */
   padding: 14px 20px;
   text-decoration: none;
   font-size: 17px;
 }
 
 .topNav a:hover {
-  border-bottom: 3px solid #d7be82;
+  ?* border-bottom: 3px solid #d7be82; */
   color: #d7be82;
+  text-decoration: 3px underline;
 }
 
 .topNav a.active {
