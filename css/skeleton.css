@@ -118,6 +118,9 @@
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .topNav {
   background-color: #452313;
+  /* border-top: 3px solid #452313;
+  border-bottom: 3px solid #452313;   */
+  opacity: 1.0;
   overflow: hidden;
   position: -webkit-sticky; /*Safari*/
   position: sticky;
@@ -158,6 +161,7 @@
   .topNav a.icon {
     float: right;
     display: block;
+    border-bottom: none;
   }
 }
 
@@ -167,7 +171,7 @@
     position: absolute;
     right: 0;
     top: 0;
-    border-bottom: disabled;
+
   }
 }
 
