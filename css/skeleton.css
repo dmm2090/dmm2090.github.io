@@ -28,6 +28,9 @@
 
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+body {
+  background-color: inherit;
+}
 .container {
   position: relative;
   width: 100%;
@@ -117,7 +120,7 @@
 /* TopNav
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .topNav {
-  background-color: #452313;
+  background-color: #515a47;
   overflow: hidden;
   position: -webkit-sticky; /*Safari*/
   position: sticky;
@@ -188,7 +191,7 @@
   overflow: hidden;
   bottom: 0;
   display: flex;
-  border-top: medium solid #452313;
+  border-top: medium solid #515a47;
   justify-content: space-around;
   justify-content: space-between;
 }
@@ -271,7 +274,7 @@ p {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #55acee; }
+  color: #669900; }
 a:hover {
   color: #d7be82; }
 
@@ -521,6 +524,7 @@ hr {
   text-align: center;
   font-family: Ubuntu;
   font-size: inherit;
+  background-color: white;
 }
 
 .price {
