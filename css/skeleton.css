@@ -120,7 +120,7 @@ body {
 /* TopNav
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .topNav {
-  background-color: #34302b;
+  background-color: #34302b; /* #515a47 Green */
   overflow: hidden;
   position: -webkit-sticky; /*Safari*/
   position: sticky;
@@ -274,9 +274,9 @@ p {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #d7be82; }
+  color: #515a47; }
 a:hover {
-  color: #34302b; }
+  color: #515a47; }
 
 
 /* Buttons
@@ -516,7 +516,7 @@ hr {
     color: red;
 }
 
-*/  
+*/
 
   /* Project Cards
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
