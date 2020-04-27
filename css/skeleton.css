@@ -205,12 +205,11 @@ body {
 }
 
 .bottomNav a:hover {
-  color: #af1b3f;
+  color: darkred;
 }
 
 .bottomNav a.active {
   background-color: disabled;
-  color: #d7be82;
 }
 
 .bottomNav a.icon {
@@ -240,7 +239,7 @@ body {
   font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
   font-weight: 400;
-  font-family: "Ubuntu", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Ubuntu", monospace;
   color: #222; }
 
 
@@ -525,7 +524,7 @@ hr {
   max-width: 300px;
   margin: auto;
   text-align: center;
-  font-family: Ubuntu;
+  font-family: "Ubuntu" serif;
   font-size: inherit;
   background-color: white;
 }
