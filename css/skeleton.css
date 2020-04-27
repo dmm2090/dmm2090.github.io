@@ -321,8 +321,8 @@ input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
   color: #FFF;
-  background-color: darkkhaki;
-  border-color: darkkhaki;
+  background-color: #34302b;
+  border-color: #34302b;
   font-size: 18px; }
 .button.button-primary:hover,
 button.button-primary:hover,
@@ -334,9 +334,9 @@ button.button-primary:focus,
 input[type="submit"].button-primary:focus,
 input[type="reset"].button-primary:focus,
 input[type="button"].button-primary:focus {
-  color: darkkhaki;
+  color: #34302b;
   background-color: #FFF;
-  border-color: darkkhaki;
+  border-color: #34302b;
   border: 2px solid; }
 
 
@@ -539,11 +539,11 @@ button.button-card,
 input[type="submit"].button-card,
 input[type="reset"].button-card,
 input[type="button"].button-card {
-  border: 1px solid darkkhaki;   /*Pewter: #34302b */
+  border: 1px solid #34302b;   /*Pewter: #34302b */
   outline: 0;
   padding: .1rem;
   color: #FFF;
-  background-color: darkkhaki;
+  background-color: #34302b;
   text-align: center;
   cursor: pointer;
   width: 100%;
@@ -561,9 +561,9 @@ button.button-card:focus,
 input[type="submit"].button-card:focus,
 input[type="reset"].button-card:focus,
 input[type="button"].button-card:focus {
-  color: darkkhaki;
+  color: #34302b;
   background-color: transparent;
-  border-color: darkkhaki;
+  border-color: #34302b;
   opacity: 1.0;
   border: 2px solid;
    }
