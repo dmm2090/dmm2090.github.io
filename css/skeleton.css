@@ -136,7 +136,8 @@
 }
 
 .topNav a:hover {
-  border-bottom: 3px solid #d7be82;
+  /* border-bottom: 3px solid #d7be82; */
+  text-decoration: underline;
   color: #d7be82;
 }
 
