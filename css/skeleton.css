@@ -28,9 +28,6 @@
 
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-body {
-  background-color: inherit;
-}
 .container {
   position: relative;
   width: 100%;
@@ -185,6 +182,33 @@ body {
   text-align: left;
 }
 
+/* main page article nav
+___________________________________________________ */
+.articleNav {
+  background-color: #333; /* Green:515a47 , Pewter:34302b */
+  overflow: hidden;
+  display: flex;
+  justify-content: space-around;
+  justify-content: space-between;
+}
+
+.articleNav a {
+  float: none;
+  color: #fff;
+  padding: 8px;
+  text-decoration: none;
+  font-size: inherit;
+}
+
+.articleNav a:hover {
+  color: #d7be82;
+}
+
+.articleNav .fas.fa-download {
+  color: #fff;
+  padding: 5px;
+}
+
 /* bottomNav
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .bottomNav {
@@ -240,7 +264,9 @@ body {
   line-height: 1.6;
   font-weight: 400;
   font-family: "Ubuntu", monospace;
-  color: #222; }
+  color: #222;
+  background-color: inherit;
+  }
 
 
 /* Typography
