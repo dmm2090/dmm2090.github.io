@@ -120,7 +120,7 @@ body {
 /* TopNav
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .topNav {
-  background-color: #34302b; /* Green:515a47 , Pewter:34302b */
+  background-color: darkred; /* Green:515a47 , Pewter:34302b */
   overflow: hidden;
   position: -webkit-sticky; /*Safari*/
   position: sticky;
@@ -144,7 +144,7 @@ body {
 }
 
 .topNav a.active {
-  background-color: #34302b;
+  background-color: darkred;
   color: #d7be82;
   box-shadow: 0 4px 12px 0 rgba(210, 190, 130, 0.2);
 }
@@ -191,7 +191,7 @@ body {
   overflow: hidden;
   bottom: 0;
   display: flex;
-  border-top: medium solid #34302b;
+  border-top: medium solid burlywood;
   justify-content: space-around;
   justify-content: space-between;
 }
@@ -274,9 +274,9 @@ p {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #dd614a; }
+  color: darkred; }
 a:hover {
-  color: #000; }
+  color: burlywood; }
 
 
 /* Buttons
@@ -540,7 +540,7 @@ button.button-card,
 input[type="submit"].button-card,
 input[type="reset"].button-card,
 input[type="button"].button-card {
-  border: 1px solid #34302b;
+  border: 1px solid #34302b;   /*Pewter: #34302b */
   outline: 0;
   padding: .1rem;
   color: #FFF;
