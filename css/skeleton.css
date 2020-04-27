@@ -120,7 +120,7 @@ body {
 /* TopNav
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .topNav {
-  background-color: #515a47; /* Green:515a47 , Pewter:34302b */
+  background-color: #34302b; /* Green:515a47 , Pewter:34302b */
   overflow: hidden;
   position: -webkit-sticky; /*Safari*/
   position: sticky;
@@ -144,7 +144,7 @@ body {
 }
 
 .topNav a.active {
-  background-color: #515a47;
+  background-color: #34302b;
   color: #d7be82;
   box-shadow: 0 4px 12px 0 rgba(210, 190, 130, 0.2);
 }
@@ -205,7 +205,7 @@ body {
 }
 
 .bottomNav a:hover {
-  color: #d7be82;
+  color: #af1b3f;
 }
 
 .bottomNav a.active {
@@ -274,7 +274,7 @@ p {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #69140e; }
+  color: #dd614a; }
 a:hover {
   color: #000; }
 
