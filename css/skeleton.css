@@ -28,9 +28,6 @@
 
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-body {
-  background-color: navajowhite;
-}
 .container {
   position: relative;
   width: 100%;
@@ -120,7 +117,7 @@ body {
 /* TopNav
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .topNav {
-  background-color: #515a47;
+  background-color: darkred; /* Green:515a47 , Pewter:34302b */
   overflow: hidden;
   position: -webkit-sticky; /*Safari*/
   position: sticky;
@@ -139,14 +136,15 @@ body {
 }
 
 .topNav a:hover {
-  border-bottom: 3px solid #d7be82;
+  /* border-bottom: 3px solid #d7be82; */
+  text-decoration: underline;
   color: #d7be82;
 }
 
 .topNav a.active {
-  background-color: #515a47;
+  background-color: darkred;
   color: #d7be82;
-  box-shadow: 0 4px 12px 0 rgba(0, 0, 64, 0.6);
+  box-shadow: 0 4px 12px 0 rgba(210, 190, 130, 0.2);
 }
 
 .topNav .icon {
@@ -185,13 +183,53 @@ body {
   text-align: left;
 }
 
+/* main page article nav
+___________________________________________________ */
+.articleNav {
+  background-color: #333; /* Green:515a47 , Pewter:34302b */
+  overflow: hidden;
+  display: flex;
+  justify-content: space-around;
+  justify-content: space-between;
+}
+
+.articleNav a {
+  float: none;
+  color: #fff;
+  padding: 8px;
+  text-decoration: none;
+  font-size: inherit;
+}
+
+.articleNav a:hover {
+  color: #d7be82;
+}
+
+.articleNav .fas.fa-download {
+  color: #fff;
+  padding: 5px;
+}
+
+/* Index.html footer for each article posting
+___________________________________________________ */
+.articleFooter {
+  border-top: 1px solid darkred;
+  padding-top: 5%;
+  width: 100%;
+  font-size: small;
+}
+
+.articleFooter p {
+  margin-top: -3%;
+}
+
 /* bottomNav
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .bottomNav {
   overflow: hidden;
   bottom: 0;
   display: flex;
-  border-top: medium solid #515a47;
+  border-top: medium solid darkred;
   justify-content: space-around;
   justify-content: space-between;
 }
@@ -205,12 +243,11 @@ body {
 }
 
 .bottomNav a:hover {
-  color: #d7be82;
+  color: darkred;
 }
 
 .bottomNav a.active {
   background-color: disabled;
-  color: #d7be82;
 }
 
 .bottomNav a.icon {
@@ -218,7 +255,6 @@ body {
     display: block;
   }
 }
-
 
 .bottomNav.responsive {
   display: block;
@@ -229,6 +265,8 @@ body {
   display: block;
   text-align: left;
 }
+
+
 /* Base Styles
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 /* NOTE
@@ -240,8 +278,10 @@ body {
   font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
   font-weight: 400;
-  font-family: "Ubuntu", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #222; }
+  font-family: "Ubuntu", monospace;
+  color: #222;
+  background-color: inherit;
+  }
 
 
 /* Typography
@@ -271,12 +311,13 @@ p {
   margin-top: 0; }
 
 
+
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #669900; }
+  color: darkred; }
 a:hover {
-  color: #d7be82; }
+  color: burlywood; }
 
 
 /* Buttons
@@ -322,8 +363,8 @@ input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
   color: #FFF;
-  background-color: #515a47;
-  border-color: #515a47;
+  background-color: #34302b;
+  border-color: #34302b;
   font-size: 18px; }
 .button.button-primary:hover,
 button.button-primary:hover,
@@ -335,9 +376,9 @@ button.button-primary:focus,
 input[type="submit"].button-primary:focus,
 input[type="reset"].button-primary:focus,
 input[type="button"].button-primary:focus {
-  color: #515a47;
+  color: #34302b;
   background-color: #FFF;
-  border-color: #515a47;
+  border-color: #34302b;
   border: 2px solid; }
 
 
@@ -384,7 +425,7 @@ input[type="url"]:focus,
 input[type="password"]:focus,
 textarea:focus,
 select:focus {
-  border: 1px solid #33C3F0;
+  border: 1px solid darkred; /* default link blue: #33C3F0 */
   outline: 0; }
 label,
 legend {
@@ -511,9 +552,12 @@ hr {
 
   /* fontawesome icons
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
+  /*
   .fab.fa-youtube {
     color: red;
-  }
+}
+
+*/
 
   /* Project Cards
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -522,7 +566,7 @@ hr {
   max-width: 300px;
   margin: auto;
   text-align: center;
-  font-family: Ubuntu;
+  font-family: "Ubuntu" serif;
   font-size: inherit;
   background-color: white;
 }
@@ -537,11 +581,11 @@ button.button-card,
 input[type="submit"].button-card,
 input[type="reset"].button-card,
 input[type="button"].button-card {
-  border: 1px solid #515a47;
+  border: 1px solid #34302b;   /*Pewter: #34302b */
   outline: 0;
   padding: .1rem;
   color: #FFF;
-  background-color: #515a47;
+  background-color: #34302b;
   text-align: center;
   cursor: pointer;
   width: 100%;
@@ -559,9 +603,9 @@ button.button-card:focus,
 input[type="submit"].button-card:focus,
 input[type="reset"].button-card:focus,
 input[type="button"].button-card:focus {
-  color: #515a47;
+  color: #34302b;
   background-color: transparent;
-  border-color: #515a47;
+  border-color: #34302b;
   opacity: 1.0;
   border: 2px solid;
    }
