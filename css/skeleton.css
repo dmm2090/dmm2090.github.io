@@ -214,13 +214,12 @@ ___________________________________________________ */
 ___________________________________________________ */
 .articleFooter {
   border-top: 1px solid darkred;
-  padding-top: 5%;
-  width: 100%;
+  padding-top: 0%;
   font-size: small;
 }
 
 .articleFooter p {
-  margin-top: -3%;
+  margin-top: 1%;
 }
 
 /* bottomNav
