@@ -213,7 +213,7 @@ ___________________________________________________ */
 /* homepage footer for each article posting
 ___________________________________________________ */
 .articleFooter {
-  border-top: 1px solid darkgreen;
+  border-top: 1px solid green;
   padding-top: 0%;
   font-size: small;
 }
