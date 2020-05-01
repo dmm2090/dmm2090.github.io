@@ -144,7 +144,7 @@
 .topNav a.active {
   background-color: darkslategrey;
   color: #ffcb9a;
-  box-shadow: 0 4px 12px 0 rgba(210, 190, 130, 0.2);
+  box-shadow: 0 4px 12px 0 rgba(20, 190, 130, 0.1);
 }
 
 .topNav .icon {
