@@ -117,7 +117,7 @@
 /* TopNav
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .topNav {
-  background-color: #515a47; /* Green:515a47 , Pewter:34302b */
+  background-color: darkslategrey; /* Green:515a47 , Pewter:34302b */
   overflow: hidden;
   position: -webkit-sticky; /*Safari*/
   position: sticky;
@@ -138,12 +138,12 @@
 .topNav a:hover {
   /* border-bottom: 3px solid #d7be82; */
   text-decoration: none;
-  color: #d7be82;
+  color: #ffcb9a;
 }
 
 .topNav a.active {
-  background-color: #515a47;
-  color: #d7be82;
+  background-color: darkslategrey;
+  color: #ffcb9a;
   box-shadow: 0 4px 12px 0 rgba(210, 190, 130, 0.2);
 }
 
@@ -213,7 +213,7 @@ ___________________________________________________ */
 /* homepage footer for each article posting
 ___________________________________________________ */
 .articleFooter {
-  border-top: 1px solid green;
+  border-top: 1px solid #116466;
   padding-top: 0%;
   font-size: small;
 }
@@ -228,7 +228,7 @@ ___________________________________________________ */
   overflow: hidden;
   bottom: 0;
   display: flex;
-  border-top: medium solid #515a47;
+  border-top: medium solid #116466;
   justify-content: space-around;
   justify-content: space-between;
 }
@@ -314,7 +314,7 @@ p {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: darkgreen; }
+  color: #116466; }
 a:hover {
   color: burlywood; }
 
