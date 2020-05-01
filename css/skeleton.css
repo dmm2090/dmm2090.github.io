@@ -117,7 +117,7 @@
 /* TopNav
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .topNav {
-  background-color: #515a47; /* Green:515a47 , Pewter:34302b */
+  background-color: darkred; /* Green:515a47 , Pewter:34302b */
   overflow: hidden;
   position: -webkit-sticky; /*Safari*/
   position: sticky;
@@ -138,12 +138,12 @@
 .topNav a:hover {
   /* border-bottom: 3px solid #d7be82; */
   text-decoration: none;
-  color: #d7be82;
+  color: #FFCB9A; /* D7BE82 */
 }
 
 .topNav a.active {
-  background-color: #515a47;
-  color: #d7be82;
+  background-color: darkred;
+  color: #FFCB9A;
   box-shadow: 0 4px 12px 0 rgba(210, 190, 130, 0.2);
 }
 
@@ -202,7 +202,7 @@ ___________________________________________________ */
 }
 
 .articleNav a:hover {
-  color: #d7be82;
+  color: #FFCB9A;
 }
 
 .articleNav .fas.fa-download {
@@ -213,7 +213,7 @@ ___________________________________________________ */
 /* homepage footer for each article posting
 ___________________________________________________ */
 .articleFooter {
-  border-top: 1px solid darkgreen;
+  border-top: 1px solid darkred;
   padding-top: 0%;
   font-size: small;
 }
@@ -228,7 +228,7 @@ ___________________________________________________ */
   overflow: hidden;
   bottom: 0;
   display: flex;
-  border-top: medium solid #515a47;
+  border-top: medium solid darkred;
   justify-content: space-around;
   justify-content: space-between;
 }
@@ -242,7 +242,7 @@ ___________________________________________________ */
 }
 
 .bottomNav a:hover {
-  color: darkgreen;
+  color: darkred;
 }
 
 .bottomNav a.active {
@@ -314,9 +314,9 @@ p {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: darkgreen; }
+  color: darkred; }
 a:hover {
-  color: burlywood; }
+  color: #FFCB9A; }
 
 
 /* Buttons
@@ -424,7 +424,7 @@ input[type="url"]:focus,
 input[type="password"]:focus,
 textarea:focus,
 select:focus {
-  border: 1px solid darkgreen; /* default link blue: #33C3F0 */
+  border: 1px solid #FFCB9A; /* default link blue: #33C3F0 */
   outline: 0; }
 label,
 legend {
