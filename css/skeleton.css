@@ -33,7 +33,7 @@
 .container {
   position: relative;
   width: 100%;
-  max-width: 960px;
+  max-width: 1080px;  /* original max-width: 960px */
   margin: 0 auto;
   padding: 0 20px;
   box-sizing: border-box; }
@@ -163,9 +163,9 @@ p {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: darkred; }
+  color: slategrey; }
 a:hover {
-  color: #FFCB9A; }
+  color: #ffcc33; }
 
 
 /* Buttons
@@ -428,7 +428,7 @@ there.
 /* TopNav
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .topNav {
-  background-color: darkred; /* Green:515a47 , Pewter:34302b */
+  background-color: slategrey; /* Green:515a47 , Pewter:34302b */
   overflow: hidden;
   position: -webkit-sticky; /*Safari*/
   position: sticky;
@@ -448,12 +448,12 @@ there.
 
 .topNav a:hover {
   text-decoration: none;
-  color: #FFCB9A;
+  color: #ffcc33; /*#FFCB9A*/
 }
 
 .topNav a.active {
-  background-color: darkred;
-  color: #FFCB9A;
+  background-color: slategrey;
+  color: #ffcc33;
   box-shadow: 0 4px 12px 0 rgba(210, 190, 130, 0.2);
 }
 
@@ -556,7 +556,7 @@ ___________________________________________________ */
 /* homepage footer for each article posting
 ___________________________________________________ */
 .articleFooter {
-  border-top: 1px solid darkred;
+  border-top: 1px solid #ffcc33;
   padding-top: 0%;
   font-size: small;
 }
@@ -571,7 +571,7 @@ ___________________________________________________ */
   overflow: hidden;
   bottom: 0;
   display: flex;
-  border-top: medium solid darkred;
+  border-top: medium solid slategrey;
   justify-content: space-around;
   justify-content: space-between;
 }
@@ -585,7 +585,7 @@ ___________________________________________________ */
 }
 
 .bottomNav a:hover {
-  color: darkred;
+  color: #ffcc33;
 }
 
 .bottomNav a.active {
