@@ -631,15 +631,16 @@ button.button-card,
 input[type="submit"].button-card,
 input[type="reset"].button-card,
 input[type="button"].button-card {
-border: 1px solid #34302b;   /*Pewter: #34302b */
+border: 1px solid slategrey;   /*Pewter: #34302b */
 outline: 0;
 padding: .1rem;
-color: #FFF;
-background-color: #34302b;
+color: #ffcc33;
+background-color: slategrey;
 text-align: center;
 cursor: pointer;
 width: 100%;
-font-size: 18px;
+font-size: 20px;
+font-weight: bolder;
 border-radius: 0px; /* creates rounded button */
 margin-bottom: 0;
  }
@@ -653,9 +654,8 @@ button.button-card:focus,
 input[type="submit"].button-card:focus,
 input[type="reset"].button-card:focus,
 input[type="button"].button-card:focus {
-color: #34302b;
+color: slategrey;
 background-color: transparent;
-border-color: #34302b;
 opacity: 1.0;
-border: 2px solid;
+border: 2px solid #ffcc33;
  }
