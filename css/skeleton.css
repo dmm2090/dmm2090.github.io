@@ -211,8 +211,8 @@ input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
   color: #FFF;
-  background-color: #34302b; /* Pewter: #34302b */
-  border-color: #34302b;
+  background-color: black; /* Pewter: #34302b */
+  border-color: black;
   font-size: 18px; }
 .button.button-primary:hover,
 button.button-primary:hover,
@@ -224,10 +224,9 @@ button.button-primary:focus,
 input[type="submit"].button-primary:focus,
 input[type="reset"].button-primary:focus,
 input[type="button"].button-primary:focus {
-  color: #34302b;
-  background-color: #FFF;
-  border-color: #34302b;
-  border: 2px solid; }
+  color: black;
+  background-color: transparent;
+  border: 2px solid black; }
 
 
 /* Forms
@@ -273,7 +272,8 @@ input[type="url"]:focus,
 input[type="password"]:focus,
 textarea:focus,
 select:focus {
-  border: 1px solid #FFCB9A; /* default link blue: #33C3F0 */
+  border: 1px solid #ffcc33; /* default link blue: #33C3F0 */
+
   outline: 0; }
 label,
 legend {
@@ -632,16 +632,15 @@ button.button-card,
 input[type="submit"].button-card,
 input[type="reset"].button-card,
 input[type="button"].button-card {
-border: 1px solid slategrey;   /*Pewter: #34302b */
+border: 1px solid black;   /*Pewter: #34302b */
 outline: 0;
 padding: .1rem;
-color: #ffcc33;
-background-color: slategrey;
+color: #fff;
+background-color: black;
 text-align: center;
 cursor: pointer;
 width: 100%;
 font-size: 20px;
-font-weight: bolder;
 border-radius: 0px; /* creates rounded button */
 margin-bottom: 0;
  }
@@ -655,8 +654,8 @@ button.button-card:focus,
 input[type="submit"].button-card:focus,
 input[type="reset"].button-card:focus,
 input[type="button"].button-card:focus {
-color: slategrey;
+color: black;
 background-color: transparent;
 opacity: 1.0;
-border: 2px solid #ffcc33;
+border: 2px solid black;
  }
