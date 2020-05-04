@@ -180,7 +180,7 @@ input[type="button"] {
   padding: 0 30px;
   color: #555;
   text-align: center;
-  font-size: 11px;
+  font-size: 18px;
   font-weight: 600;
   line-height: 38px;
   letter-spacing: .1rem;
@@ -641,7 +641,7 @@ text-align: center;
 cursor: pointer;
 width: 100%;
 font-size: 20px;
-border-radius: 0px; /* creates rounded button */
+border-radius: 0; /* creates rounded button */
 margin-bottom: 0;
  }
 .button.button-card:hover,
