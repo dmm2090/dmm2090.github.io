@@ -163,7 +163,7 @@ p {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #663300; }
+  color: slategrey; }
 a:hover {
   color: #ffcc33; }
 
@@ -428,7 +428,7 @@ there.
 /* TopNav
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .topNav {
-  background-color: #663300; /* Green:515a47 , Pewter:34302b  slategrey*/
+  background-color: slategrey; /* Green:515a47 , Pewter:34302b */
   overflow: hidden;
   position: -webkit-sticky; /*Safari*/
   position: sticky;
@@ -440,7 +440,7 @@ there.
 
 .topNav a {
   float: none;
-  color: #FFf;
+  color: #fff;
   padding: 14px 20px;
   text-decoration: none;
   font-size: 17px;
@@ -449,13 +449,13 @@ there.
 
 .topNav a:hover {
   text-decoration: none;
-  color: #FFCC33; /*#FFCB9A    FFCC33*/
+  color: #ffcc33; /*#FFCB9A*/
 }
 
 .topNav a.active {
-  background-color: #663300;
-  color: #FFCC33;
-  box-shadow: 0 4px 12px 0 rgba(0, 0, 64, 0.2);
+  background-color: slategrey;
+  color: #ffcc33;
+  box-shadow: 0 4px 12px 0 rgba(210, 190, 130, 0.2);
 }
 
 .topNav input[type=text] {
@@ -572,7 +572,7 @@ ___________________________________________________ */
   overflow: hidden;
   bottom: 0;
   display: flex;
-  border-top: medium solid #663300;
+  border-top: medium solid slategrey;
   justify-content: space-around;
   justify-content: space-between;
 }
