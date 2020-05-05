@@ -455,7 +455,7 @@ there.
 .topNav a.active {
   background-color: #663300;
   color: #ffcc33;
-  box-shadow: 0 4px 12px 0 rgba(210, 190, 130, 0.2);
+  box-shadow: 0 4px 12px 0 rgba(0, 0, 64, 0.2);
 }
 
 .topNav input[type=text] {
