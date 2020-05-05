@@ -440,7 +440,7 @@ there.
 
 .topNav a {
   float: none;
-  color: #fff;
+  color: #FFF;
   padding: 14px 20px;
   text-decoration: none;
   font-size: 17px;
@@ -449,12 +449,12 @@ there.
 
 .topNav a:hover {
   text-decoration: none;
-  color: #FFCC33; /*#FFCB9A*/
+  color: #000; /*#FFCB9A*/
 }
 
 .topNav a.active {
   background-color: #663300;
-  color: #ffcc33;
+  color: #000;
   box-shadow: 0 4px 12px 0 rgba(0, 0, 64, 0.2);
 }
 
