@@ -449,7 +449,7 @@ there.
 
 .topNav a:hover {
   text-decoration: none;
-  color: #000; /*#FFCB9A    FFCC33*/
+  color: #FFCC33; /*#FFCB9A    FFCC33*/
 }
 
 .topNav a.active {
