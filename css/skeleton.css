@@ -428,7 +428,7 @@ there.
 /* TopNav
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .topNav {
-  background-color: slategrey; /* Green:515a47 , Pewter:34302b */
+  background-color: #663300; /* Green:515a47 , Pewter:34302b */
   overflow: hidden;
   position: -webkit-sticky; /*Safari*/
   position: sticky;
@@ -449,11 +449,11 @@ there.
 
 .topNav a:hover {
   text-decoration: none;
-  color: #ffcc33; /*#FFCB9A*/
+  color: #FFCC33; /*#FFCB9A*/
 }
 
 .topNav a.active {
-  background-color: slategrey;
+  background-color: #663300;
   color: #ffcc33;
   box-shadow: 0 4px 12px 0 rgba(210, 190, 130, 0.2);
 }
