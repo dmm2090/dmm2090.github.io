@@ -572,7 +572,7 @@ ___________________________________________________ */
   overflow: hidden;
   bottom: 0;
   display: flex;
-  border-top: medium solid slategrey;
+  border-top: medium solid #663300;
   justify-content: space-around;
   justify-content: space-between;
 }
