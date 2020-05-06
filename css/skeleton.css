@@ -128,8 +128,8 @@ body {
   line-height: 1.6;
   font-weight: 400;
   font-family: "Ubuntu", monospace;
-  color: #000;
-  background-color: rgba(245, 245, 220, 1);
+  color: black;
+  background-color: inherit;
   }
 
 
@@ -165,7 +165,7 @@ p {
 a {
   color: #663300; }
 a:hover {
-  color: #FFCB9A; }
+  color: #FFCC33; }
 
 
 /* Buttons
