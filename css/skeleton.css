@@ -129,7 +129,7 @@ body {
   font-weight: 400;
   font-family: "Ubuntu", monospace;
   color: #000;
-  background-color: inherit;
+  background-color: rgba(245, 245, 220, 1);
   }
 
 
@@ -163,9 +163,9 @@ p {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: slategrey; }
+  color: #663300; }
 a:hover {
-  color: #ffcc33; }
+  color: #FFCB9A; }
 
 
 /* Buttons
@@ -428,7 +428,9 @@ there.
 /* TopNav
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .topNav {
-  background-color: slategrey; /* Green:515a47 , Pewter:34302b */
+  background-color: inherit; /* Green:515a47 , Pewter:34302b */
+  border-top: 3px solid #663300;
+  border-bottom: 3px solid #663300;
   overflow: hidden;
   position: -webkit-sticky; /*Safari*/
   position: sticky;
@@ -440,7 +442,7 @@ there.
 
 .topNav a {
   float: none;
-  color: #fff;
+  color: #663300;
   padding: 14px 20px;
   text-decoration: none;
   font-size: 17px;
@@ -449,19 +451,19 @@ there.
 
 .topNav a:hover {
   text-decoration: none;
-  color: #ffcc33; /*#FFCB9A*/
+  color: #000; /*#FFCB9A*/
 }
 
 .topNav a.active {
-  background-color: slategrey;
-  color: #ffcc33;
+  background-color: inherit;
+  color: #000;
   box-shadow: 0 4px 12px 0 rgba(210, 190, 130, 0.2);
 }
 
 .topNav input[type=text] {
   float: none;
   padding: 6px;
-  border: none;
+  border: 1px solid #663300;
   margin-top: 10px;
   margin-right: 15px;
   display: flex;
@@ -499,6 +501,9 @@ input[type=text]:hover {
     right: 0;
     top: 0;
     border-bottom: disabled;
+  }
+  topNav.responsive a.icon.active {
+    color: #663300;
   }
   .topNav.responsive input {
     visibility: visible;
@@ -557,7 +562,7 @@ ___________________________________________________ */
 /* homepage footer for each article posting
 ___________________________________________________ */
 .articleFooter {
-  border-top: 1px solid #ffcc33;
+  border-top: 1px solid #663300;
   padding-top: 0%;
   font-size: small;
 }
@@ -572,7 +577,7 @@ ___________________________________________________ */
   overflow: hidden;
   bottom: 0;
   display: flex;
-  border-top: medium solid slategrey;
+  border-top: 3px solid #663300;
   justify-content: space-around;
   justify-content: space-between;
 }
@@ -586,7 +591,7 @@ ___________________________________________________ */
 }
 
 .bottomNav a:hover {
-  color: #ffcc33;
+  color: #663300;
 }
 
 .bottomNav a.active {
