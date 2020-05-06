@@ -527,7 +527,7 @@ input[type=text]:hover {
   display: block;
   text-align: left;
   width: 90%;
-  border-radius: 0;
+  border-radius: 20px;
 
 }
 
