@@ -165,7 +165,7 @@ p {
 a {
   color: #663300; }
 a:hover {
-  color: #FFCC33; }
+  color: burlywood; }
 
 
 /* Buttons
@@ -561,7 +561,7 @@ ___________________________________________________ */
 /* homepage footer for each article posting
 ___________________________________________________ */
 .articleFooter {
-  border-top: 2px solid #663300;
+  border-top: 1px solid burlywood;
   padding-top: 0%;
   font-size: small;
 }
