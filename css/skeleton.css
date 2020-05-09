@@ -456,7 +456,7 @@ there.
 .topNav a.active {
   background-color: inherit;
   color: #000;
-  box-shadow: 0 4px 12px 0 rgba(210, 190, 130, 0.5);
+  /* box-shadow: 0 4px 12px 0 rgba(210, 190, 130, 0.5); */
 }
 
 .topNav input[type=text] {
@@ -561,7 +561,7 @@ ___________________________________________________ */
 /* homepage footer for each article posting
 ___________________________________________________ */
 .articleFooter {
-  border-top: 1px solid burlywood;
+  border-top: .2em solid #663300;
   padding-top: 0%;
   font-size: small;
 }
