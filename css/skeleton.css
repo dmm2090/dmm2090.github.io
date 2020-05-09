@@ -428,8 +428,8 @@ there.
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .topNav {
   background-color: inherit; /* Green:515a47 , Pewter:34302b */
-  border-top: 3px solid #663300;
-  border-bottom: 3px solid #663300;
+  border-top: 3px solid #754719;
+  border-bottom: 3px solid #754719;
   overflow: hidden;
   position: -webkit-sticky; /*Safari*/
   position: sticky;
@@ -441,7 +441,7 @@ there.
 
 .topNav a {
   float: none;
-  color: #663300;
+  color: #754719;
   padding: 14px 20px;
   text-decoration: none;
   font-size: 17px;
@@ -450,7 +450,7 @@ there.
 
 .topNav a:hover {
   text-decoration: none;
-  color: #000; /*#FFCB9A*/
+  color: tan; /*#FFCB9A*/
 }
 
 .topNav a.active {
@@ -462,7 +462,7 @@ there.
 .topNav input[type=text] {
   float: none;
   padding: 6px;
-  border: 1px solid #663300;
+  border: 1px solid #754719;
   margin-top: 10px;
   margin-right: 15px;
   display: flex;
@@ -502,7 +502,7 @@ input[type=text]:hover {
     border-bottom: disabled;
   }
   .topNav.responsive a:active.icon {
-    color: #663300;
+    color: #754719;
   }
   .topNav.responsive input {
     visibility: visible;
@@ -561,7 +561,7 @@ ___________________________________________________ */
 /* homepage footer for each article posting
 ___________________________________________________ */
 .articleFooter {
-  border-top: .2em solid #663300;
+  border-top: 1px solid #754719;
   padding-top: 0%;
   font-size: small;
 }
@@ -576,7 +576,7 @@ ___________________________________________________ */
   overflow: hidden;
   bottom: 0;
   display: flex;
-  border-top: 3px solid #663300;
+  border-top: 3px solid #754719;
   justify-content: space-around;
   justify-content: space-between;
 }
@@ -590,7 +590,7 @@ ___________________________________________________ */
 }
 
 .bottomNav a:hover {
-  color: #663300;
+  color: #754719;
 }
 
 .bottomNav a.active {
