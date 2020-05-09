@@ -163,7 +163,7 @@ p {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #663300; }
+  color: #754719; }
 a:hover {
   color: burlywood; }
 
@@ -178,7 +178,7 @@ input[type="button"] {
   display: inline-block;
   height: 38px;
   padding: 0 30px;
-  color: #663300;
+  color: #754719;
   text-align: center;
   font-size: 18px;
   font-weight: 600;
@@ -189,7 +189,7 @@ input[type="button"] {
   white-space: nowrap;
   background-color: transparent;
   border-radius: 4px;
-  border: 2px solid #663300;
+  border: 2px solid #754719;
   cursor: pointer;
   box-sizing: border-box; }
 .button:hover,
