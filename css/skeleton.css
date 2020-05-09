@@ -165,7 +165,7 @@ p {
 a {
   color: #754719; }
 a:hover {
-  color: burlywood; }
+  color: tan; }
 
 
 /* Buttons
@@ -455,7 +455,7 @@ there.
 
 .topNav a.active {
   background-color: inherit;
-  color: #000;
+  color: tan;
   /* box-shadow: 0 4px 12px 0 rgba(210, 190, 130, 0.5); */
 }
 
