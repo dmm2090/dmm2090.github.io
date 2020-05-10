@@ -485,6 +485,11 @@ input[type=text]:hover {
   .topNav a:not(:first-child) {display: none;
     float:left;
   }
+
+/* Attempting to have "home a.active color to be brown, not tan" */  
+  .topNav a.active(:first-child) {
+    color: #754719;
+  }
   .topNav input {visibility: hidden;
   }
   .topNav a.icon {
