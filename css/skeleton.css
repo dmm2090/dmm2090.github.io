@@ -128,7 +128,7 @@ body {
   line-height: 1.6;
   font-weight: 400;
   font-family: "Ubuntu", monospace;
-  color: #000;
+  color: black;
   background-color: inherit;
   }
 
@@ -163,9 +163,9 @@ p {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: slategrey; }
+  color: #754719; }
 a:hover {
-  color: #ffcc33; }
+  color: tan; }
 
 
 /* Buttons
@@ -178,7 +178,7 @@ input[type="button"] {
   display: inline-block;
   height: 38px;
   padding: 0 30px;
-  color: #555;
+  color: #754719;
   text-align: center;
   font-size: 18px;
   font-weight: 600;
@@ -189,7 +189,7 @@ input[type="button"] {
   white-space: nowrap;
   background-color: transparent;
   border-radius: 4px;
-  border: 1px solid #bbb;
+  border: 2px solid #754719;
   cursor: pointer;
   box-sizing: border-box; }
 .button:hover,
@@ -202,8 +202,8 @@ button:focus,
 input[type="submit"]:focus,
 input[type="reset"]:focus,
 input[type="button"]:focus {
-  color: #333;
-  border-color: #888;
+  color: black;
+  border-color: black;
   outline: 0; }
 .button.button-primary,
 button.button-primary,
@@ -273,8 +273,7 @@ input[type="url"]:focus,
 input[type="password"]:focus,
 textarea:focus,
 select:focus {
-  border: 1px solid #ffcc33; /* default link blue: #33C3F0 */
-
+  border: 1px solid #663300; /* default link blue: #33C3F0 */
   outline: 0; }
 label,
 legend {
@@ -429,7 +428,9 @@ there.
 /* TopNav
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .topNav {
-  background-color: slategrey; /* Green:515a47 , Pewter:34302b */
+  background-color: inherit; /* Green:515a47 , Pewter:34302b */
+  border-top: 3px solid #754719;
+  border-bottom: 3px solid #754719;
   overflow: hidden;
   position: -webkit-sticky; /*Safari*/
   position: sticky;
@@ -441,7 +442,7 @@ there.
 
 .topNav a {
   float: none;
-  color: #fff;
+  color: #754719;
   padding: 14px 20px;
   text-decoration: none;
   font-size: 17px;
@@ -450,19 +451,19 @@ there.
 
 .topNav a:hover {
   text-decoration: none;
-  color: #ffcc33; /*#FFCB9A*/
+  color: tan; /*#FFCB9A*/
 }
 
 .topNav a.active {
-  background-color: slategrey;
-  color: #ffcc33;
-  box-shadow: 0 4px 12px 0 rgba(210, 190, 130, 0.2);
+  background-color: inherit;
+  color: tan;
+  /* box-shadow: 0 4px 12px 0 rgba(210, 190, 130, 0.5); */
 }
 
 .topNav input[type=text] {
   float: none;
   padding: 6px;
-  border: none;
+  border: 1px solid #754719;
   margin-top: 10px;
   margin-right: 15px;
   display: flex;
@@ -470,6 +471,7 @@ there.
   justify-content: space-between;
   width: 65px;
   -webkit-transition: width 0.4s ease-in-out;
+  overflow-y: visible;
 }
 
 input[type=text]:hover {
@@ -488,6 +490,11 @@ input[type=text]:placeholder {
   .topNav a:not(:first-child) {display: none;
     float:left;
   }
+
+/* Attempting to have "home a.active color to be brown, not tan" */  
+  .topNav a.active(:first-child) {
+    color: #754719;
+  }
   .topNav input {visibility: hidden;
   }
   .topNav a.icon {
@@ -504,6 +511,9 @@ input[type=text]:placeholder {
     right: 0;
     top: 0;
     border-bottom: disabled;
+  }
+  .topNav.responsive a:active.icon {
+    color: #754719;
   }
   .topNav.responsive input {
     visibility: visible;
@@ -527,7 +537,7 @@ input[type=text]:placeholder {
   display: block;
   text-align: left;
   width: 90%;
-  border-radius: 0;
+  border-radius: 20px;
 
 }
 
@@ -562,7 +572,7 @@ ___________________________________________________ */
 /* homepage footer for each article posting
 ___________________________________________________ */
 .articleFooter {
-  border-top: 1px solid #ffcc33;
+  border-top: 1px solid #754719;
   padding-top: 0%;
   font-size: small;
 }
@@ -577,7 +587,7 @@ ___________________________________________________ */
   overflow: hidden;
   bottom: 0;
   display: flex;
-  border-top: medium solid slategrey;
+  border-top: 3px solid #754719;
   justify-content: space-around;
   justify-content: space-between;
 }
@@ -591,7 +601,7 @@ ___________________________________________________ */
 }
 
 .bottomNav a:hover {
-  color: #ffcc33;
+  color: #754719;
 }
 
 .bottomNav a.active {
@@ -637,11 +647,11 @@ button.button-card,
 input[type="submit"].button-card,
 input[type="reset"].button-card,
 input[type="button"].button-card {
-border: 1px solid black;   /*Pewter: #34302b */
+border: 1px solid rgba(210, 180, 140, 0.3);   /*Pewter: #34302b */
 outline: 0;
 padding: .1rem;
-color: #fff;
-background-color: black;
+color: #663300;
+background-color: rgba(210, 180, 140, 0.7);
 text-align: center;
 cursor: pointer;
 width: 100%;
@@ -659,8 +669,8 @@ button.button-card:focus,
 input[type="submit"].button-card:focus,
 input[type="reset"].button-card:focus,
 input[type="button"].button-card:focus {
-color: black;
+color: ##754719;
 background-color: transparent;
 opacity: 1.0;
-border: 2px solid black;
+border: 2px solid tan;
  }
