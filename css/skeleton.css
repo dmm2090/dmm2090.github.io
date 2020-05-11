@@ -470,7 +470,6 @@ there.
   justify-content: space-between;
   width: 65px;
   -webkit-transition: width 0.4s ease-in-out;
-  overflow-y: visible;
 }
 
 input[type=text]:hover {
@@ -486,7 +485,7 @@ input[type=text]:hover {
     float:left;
   }
 
-/* Attempting to have "home a.active color to be brown, not tan" */  
+/* Attempting to have "home a.active color to be brown, not tan" */
   .topNav a.active(:first-child) {
     color: #754719;
   }
