@@ -491,7 +491,7 @@ input[type=text]:placeholder {
     float:left;
   }
 
-/* Attempting to have "home a.active color to be brown, not tan" */  
+/* Attempting to have "home a.active color to be brown, not tan" */
   .topNav a.active(:first-child) {
     color: #754719;
   }
@@ -651,7 +651,7 @@ border: 1px solid rgba(210, 180, 140, 0.3);   /*Pewter: #34302b */
 outline: 0;
 padding: .1rem;
 color: #663300;
-background-color: rgba(210, 180, 140, 0.7);
+background-color: rgba(210, 180, 140, 0.4);
 text-align: center;
 cursor: pointer;
 width: 100%;
@@ -672,5 +672,5 @@ input[type="button"].button-card:focus {
 color: ##754719;
 background-color: transparent;
 opacity: 1.0;
-border: 2px solid tan;
+border: 2px solid rgba(210, 180, 140, 0.3);
  }
