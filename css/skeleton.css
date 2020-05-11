@@ -246,7 +246,8 @@ select {
   border: 1px solid #D1D1D1;
   border-radius: 4px;
   box-shadow: none;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  font-family: "Ubuntu", serif; }
 /* Removes awkward default styles on some inputs for iOS */
 input[type="email"],
 input[type="number"],
@@ -476,6 +477,10 @@ input[type=text]:hover {
   width: 130px;
 }
 
+input[type=text]:placeholder {
+  font-weight: bolder;
+}
+
 .topNav .icon {
   display: none;
 }
@@ -645,7 +650,7 @@ border: 1px solid rgba(210, 180, 140, 0.3);   /*Pewter: #34302b */
 outline: 0;
 padding: .1rem;
 color: #663300;
-background-color: rgba(210, 180, 140, 0.7);
+background-color: rgba(210, 180, 140, 0.4);
 text-align: center;
 cursor: pointer;
 width: 100%;
@@ -666,5 +671,5 @@ input[type="button"].button-card:focus {
 color: ##754719;
 background-color: transparent;
 opacity: 1.0;
-border: 2px solid tan;
+border: 2px solid rgba(210, 180, 140, 0.3);
  }
