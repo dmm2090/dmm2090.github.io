@@ -558,21 +558,23 @@ ___________________________________________________ */
   position: sticky;
   position: -webkit-sticky;
   bottom: 0;
-  background-color: #B79b58;
   display: flex;
-  width: 100%;
-  padding: 10px 0%;
+  justify-content: space-around;
+  justify-content: space-between;
+  overflow: hidden;
+  float: none;
+  background-color: #B79b58;
+  padding: 0px;
   z-index: 1;
-  justify-content: center;
 }
 
 .bottomNav a {
   font: 17px "Ubuntu", serif;
   text-decoration: none;
   color: white;
-  padding: 5%;
+  padding: 10px;
   float: none;
-  margin: 0;
+  margin: 0px 20px;
 }
 
 .bottomNav a:hover {
