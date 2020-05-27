@@ -559,20 +559,20 @@ ___________________________________________________ */
   position: -webkit-sticky;
   bottom: 0;
   background-color: #B79b58;
-  display: inline-block;
+  display: flex;
   width: 100%;
   padding: 10px 0%;
   z-index: 1;
-  align-content: center;
+  justify-content: center;
 }
 
 .bottomNav a {
   font: 17px "Ubuntu", serif;
   text-decoration: none;
   color: white;
-  padding: 0px;
+  padding: 5%;
   float: none;
-  margin: 0px 10%;
+  margin: 0;
 }
 
 .bottomNav a:hover {
