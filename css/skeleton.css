@@ -439,7 +439,7 @@ there.
   align-items: center;
   justify-content: space-around;
   justify-content: space-between;
-  background-color: #B79b58;
+  background-color: #34302b ; /* Gold:  #B79b58 */
   z-index: 1;
 }
 
@@ -456,7 +456,7 @@ there.
 
 .nav a:hover {
   transition: 1.5s;
-  color: black;
+  color: #B79b58;
 }
 
 .nav .icon {
@@ -474,6 +474,7 @@ there.
   justify-content: space-between;
   width: 90px;
   -webkit-transition: width 0.4s ease-in-out;
+  z-index: 2;
 }
 
 input[type=text]:hover {
@@ -487,6 +488,7 @@ input[type=text]:placeholder {
 @media screen and (max-width: 750px) {
   .nav a:not(:first-child) {display: none;
     float:left;
+    z-index: 2;
   }
 
 /* Attempting to have "home a.active color to be brown, not tan" */
@@ -559,7 +561,7 @@ ___________________________________________________ */
   position: -webkit-sticky;
   bottom: 0;
   display: flex;
-  background-color: #B79b58;
+  background-color: #34302b;
   width: 100%;
   padding: 5px 0%;
   z-index: 1;
@@ -567,9 +569,9 @@ ___________________________________________________ */
 }
 
 .bottomNav a {
-  font: 17px "Ubuntu", serif;
+  font: 20px "Ubuntu", serif;
   text-decoration: none;
-  color: white;
+  color: grey;
   padding: 0;
   float: none;
   margin: 0px 20px;
@@ -577,7 +579,7 @@ ___________________________________________________ */
 
 .bottomNav a:hover {
   transition: 1.5s;
-  color: black;
+  color: white;
 }
 
 
@@ -603,16 +605,16 @@ button.button-card,
 input[type="submit"].button-card,
 input[type="reset"].button-card,
 input[type="button"].button-card {
-border: 1px solid rgba(210, 180, 140, 0.3);   /*Pewter: #34302b */
+border: 1px solid #34302b;
 outline: 0;
 padding: .1rem;
-color: #663300;
-background-color: rgba(210, 180, 140, 0.4);
+color: #fff;
+background-color: #34302b;
 text-align: center;
 cursor: pointer;
 width: 100%;
 font-size: 20px;
-border-radius: 0; /* creates rounded button */
+border-radius: 0; /* removed radius from button */
 margin-bottom: 0;
  }
 .button.button-card:hover,
@@ -625,8 +627,8 @@ button.button-card:focus,
 input[type="submit"].button-card:focus,
 input[type="reset"].button-card:focus,
 input[type="button"].button-card:focus {
-color: ##754719;
-background-color: transparent;
+color: #fff;
+background-color: rgba(0, 0, 0, 0.7);
 opacity: 1.0;
-border: 2px solid rgba(210, 180, 140, 0.3);
+border: 2px solid rgba(0, 0, 0, 0.2);
  }
