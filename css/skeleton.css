@@ -474,7 +474,6 @@ there.
   justify-content: space-between;
   width: 90px;
   -webkit-transition: width 0.4s ease-in-out;
-  z-index: 2;
 }
 
 input[type=text]:hover {
@@ -488,7 +487,7 @@ input[type=text]:placeholder {
 @media screen and (max-width: 750px) {
   .nav a:not(:first-child) {display: none;
     float:left;
-    z-index: 2;
+    z-index: 1;
   }
 
 /* Attempting to have "home a.active color to be brown, not tan" */
