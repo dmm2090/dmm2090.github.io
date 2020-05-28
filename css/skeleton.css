@@ -30,6 +30,7 @@
 
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
 .container {
   position: relative;
   width: 100%;
@@ -213,9 +214,9 @@ button.button-primary,
 input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
-  color: #FFFFFF;
-  background-color: #33C3F0; /* Pewter: #34302b */
-  border-color: #33C3F0;
+  color: #FFF;
+  background-color: #B79b58; /* Pewter: #34302b */
+  border-color: #B79b58;
   font-size: 18px; }
 .button.button-primary:hover,
 button.button-primary:hover,
@@ -227,9 +228,9 @@ button.button-primary:focus,
 input[type="submit"].button-primary:focus,
 input[type="reset"].button-primary:focus,
 input[type="button"].button-primary:focus {
-  color: #FFFFFF;
-  background-color: #1EAEDB;
-  border: 2px solid #1EAEDB; }
+  color: #B79b58;
+  background-color: #34302b;
+  border: 2px solid #34302b; }
 
 
 /* Forms
@@ -629,5 +630,6 @@ input[type="button"].button-card:focus {
 color: #fff;
 background-color: rgba(0, 0, 0, 0.7);
 opacity: 1.0;
-border: 2px solid rgba(0, 0, 0, 0.2);
+border: 2px solid rgba(0, 0, 0, 0.1);
+transition: 1.5s;
  }
