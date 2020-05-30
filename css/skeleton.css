@@ -545,7 +545,7 @@ input[type=text]:placeholder {
 /* homepage footer for each article posting
 ___________________________________________________ */
 .articleFooter {
-  border-top: 1px solid #B79b58;
+  border-top: 1px solid dimgrey;
   padding-top: 0%;
   font-size: small;
 }
