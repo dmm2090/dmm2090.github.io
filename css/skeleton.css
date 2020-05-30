@@ -519,7 +519,7 @@ input[type=text]:placeholder {
     visibility: visible;
     position: relative;
     left: -2%;
-    top: -5px;
+    top: 0;
   }
 }
 
