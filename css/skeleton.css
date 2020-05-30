@@ -166,10 +166,10 @@ p {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #1EAEDB;
+  color: #B79b58; /* #1EAEDB */
   text-decoration: none;}
 a:hover {
-  color: #0FA0CE; }
+  color: #000; } /* #0FA0CE */
 
 
 /* Buttons
