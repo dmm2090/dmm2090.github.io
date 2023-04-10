@@ -409,6 +409,11 @@ optgroup {
   font-weight: bold;
 }
 
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
 /* Tables
    ========================================================================== */
 
