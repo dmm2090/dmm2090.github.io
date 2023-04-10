@@ -579,7 +579,7 @@ ___________________________________________________ */
 .bottomNav a {
   font: 20px "Ubuntu", serif;
   text-decoration: none;
-  color: dimgrey;
+  color: #B79b58; /* dimgrey; */
   padding: 0;
   float: none;
   margin: 0px 20px;
