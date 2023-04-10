@@ -440,7 +440,7 @@ there.
   align-items: center;
   justify-content: space-around;
   justify-content: space-between;
-  background-color: #34302b ; /* Gold:  #B79b58 */
+  background-color: #990000; /*#34302b ; */ /* Gold:  #B79b58 */
   z-index: 1;
 }
 
@@ -552,6 +552,14 @@ ___________________________________________________ */
 
 .articleFooter p {
   margin-top: 1%;
+}
+
+/* resume header
+___________________________________________________ */
+.resumeheader {
+  border-bottom: double 2px solid black;
+  padding-top: 0%;
+  font-size: small;
 }
 
 /* bottomNav
