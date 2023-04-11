@@ -440,7 +440,7 @@ there.
   align-items: center;
   justify-content: space-around;
   justify-content: space-between;
-  background-color: #990000; /*#34302b ; */ /* Gold:  #B79b58 */
+  background-color: #73A040; /*#34302b ; */ /* Gold:  #B79b58 */
   z-index: 1;
 }
 
@@ -569,7 +569,7 @@ ___________________________________________________ */
   position: -webkit-sticky;
   bottom: 0;
   display: flex;
-  background-color: #990000; /* #34302b; */
+  background-color: #73A040; /* #34302b; */
   width: 100%;
   padding: 5px 0%;
   z-index: 1;
