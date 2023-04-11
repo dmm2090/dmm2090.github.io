@@ -440,7 +440,7 @@ there.
   align-items: center;
   justify-content: space-around;
   justify-content: space-between;
-  background-color: #73A040; /*#34302b ; */ /* Gold:  #B79b58 */
+  background-color: #34302b ; */ /* Gold:  #B79b58 */
   z-index: 1;
 }
 
@@ -457,7 +457,7 @@ there.
 
 .nav a:hover {
   transition: 1.5s;
-  color: #B79b58;
+  color: #73A040; /* #B79b58; */
 }
 
 .nav .icon {
