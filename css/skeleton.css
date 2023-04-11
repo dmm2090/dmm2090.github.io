@@ -569,7 +569,7 @@ ___________________________________________________ */
   position: -webkit-sticky;
   bottom: 0;
   display: flex;
-  background-color: #73A040; /* #34302b; */
+  background-color: #34302b;
   width: 100%;
   padding: 5px 0%;
   z-index: 1;
@@ -579,7 +579,7 @@ ___________________________________________________ */
 .bottomNav a {
   font: 20px "Ubuntu", serif;
   text-decoration: none;
-  color: #B79b58; /* dimgrey; */
+  color: dimgrey;  /* #B79b58 */
   padding: 0;
   float: none;
   margin: 0px 20px;
