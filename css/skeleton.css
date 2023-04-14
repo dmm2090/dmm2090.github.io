@@ -486,6 +486,7 @@ there.
   background-color: inherit;
   border-top: 2px solid black;
   border-bottom: 2px solid black;
+  padding: 1rem;
 }
 
 input[type=text]:hover {
