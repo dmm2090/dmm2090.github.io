@@ -477,6 +477,18 @@ there.
   -webkit-transition: width 0.4s ease-in-out;
 }
 
+.social-navbar-top {
+  display: flex;
+  justify-content: space-around;
+  justify-content: space-between;
+  overflow: hidden;
+  float: none;
+  background-color: inherit;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  padding: 11px;
+}
+
 input[type=text]:hover {
   width: 130px;
 }
